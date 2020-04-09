@@ -140,3 +140,48 @@ body {
   flex: 1;
   padding: var(--padding-md);
 }
+
+
+/**
+ * discount-input
+ */
+ .discount-input {
+  width: 50%;
+  height: 10%;
+  margin-bottom: var(--margin-md);
+}
+
+/**
+ * help-container
+ */
+
+ .help-container {
+  display: flex;
+}
+
+
+/**
+ * help-info
+ */
+ .help-info {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin-right: var(--margin-md);
+}
+
+.help-info:last-child {
+  margin: 0;
+}
+
+.help-info__label {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.help-info__value {
+  text-align: center;
+  font-size: 1rem;
+  border: 1px solid var(--color-gray-1);
+  border-radius: 3px;
+}
